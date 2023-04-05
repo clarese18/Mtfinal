@@ -1,0 +1,99 @@
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: skyblue;
+  color: orangered;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li{
+    margin:0  10px;
+}
+
+
+.nav a{
+  color: orchid;
+  text-decoration: none;
+}.nav a:hover{
+  color: darkblue;
+}
+
+.header{
+  background-image: url(https://via.placeholder.com/1920x1080.png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.header-content{
+  margin:0 auto;
+  text-align: center;
+  color: aqua;
+}
+
+.header-content h1{
+  font-size: 72px;
+}
+
+section{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+padding: 50px
+}
+.subsection{
+  width:30%
+  margin-bottom="50px";
+  text-align:center;
+}
+
+.subsection img{
+  border: 5px solid #333;
+}
+
+.capion{
+  font-style: normal;
+  font-weight: 300;
+}
+
+.ul{
+  list-style: disc;
+  color:blanchedalmond;
+}
+
+.forn{
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+label,input,textarea{
+  margin: 8px;
+}
+
+input[type=submit]{
+  background-color: aqua;
+  color: skyblue;
+  padding: 10px x 20px;
+  border-radius: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+footer {
+    background-color: aqua;
+    color: black;
+    text-align: center;
+    padding: 20px;
+  }
+
